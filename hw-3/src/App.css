@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 100px;
+    width: 200px;
+    padding: 10px;
+    background-color: #023a98;
+    color: #fff;
+    border-radius: 10px;
+}
+

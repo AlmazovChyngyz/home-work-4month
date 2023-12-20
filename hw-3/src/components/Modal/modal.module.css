@@ -1,0 +1,46 @@
+.modalWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modalContent{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.btnClose{
+    width: 30%;
+    padding: 10px;
+    background-color: #721b1b;
+    color: #fff;
+    border-radius: 10px;
+}
+.btnAdd {
+    width: 30%;
+    padding: 10px;
+    background-color: #023a98;
+    color: #fff;
+    border-radius: 10px;
+}
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding-inline-start: 10px;
+}
