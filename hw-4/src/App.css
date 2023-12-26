@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 100px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+}
+

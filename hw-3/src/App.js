@@ -51,7 +51,9 @@ function App() {
     setTasks([...deleted])
 
   }
-
+    const handleCancel = () => {
+        setShow(false)
+    }
   return (
     <div className="App">
       <button className='btn' onClick={handleOpen}>Открыть</button>
@@ -59,11 +61,16 @@ function App() {
         <Modal
           handleOpen={handleOpen}
           handleTextInput={handleTextInput}
-          handleAdd={handleAdd}/>
+          handleAdd={handleAdd}
+          handleCancel={handleCancel}
+        />
       }
       <List
           tasks={tasks}
+          handleChangeInput={handleChangeInput}
           handleDelete={handleDelete}
+          handleSave={handleSave}
+          handleCancel={handleCancel}
       />
     </div>
   );

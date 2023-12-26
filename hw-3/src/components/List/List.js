@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Todo from '../Todo/Todo';
 
 
-const List = ({tasks, handleDelete,}) => {
+const List = ({tasks, handleDelete, handleCancel}) => {
     return (
     <div>
       {tasks.map(task=>
@@ -10,6 +10,7 @@ const List = ({tasks, handleDelete,}) => {
               key={task.id}
               task={task}
               handleDelete={handleDelete}
+              handleCancel={handleCancel}
           />)}
     </div>
   );

@@ -1,0 +1,23 @@
+
+.done, .delete, .edit {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.done {
+    background-color: #1b146d;
+}
+
+.delete {
+    background-color: #8c2b2b;
+}
+
+.edit {
+    background-color: #166929;
+}
+
+.isDone {
+    text-decoration: line-through
+}
